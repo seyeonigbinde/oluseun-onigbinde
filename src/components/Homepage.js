@@ -5,6 +5,7 @@ import budgit from '../images/budgit.png'
 import tracka from '../images/tracka.png'
 import civic_hive from '../images/civic_hive.png'
 import kwerty1 from '../images/kwerty1.jpeg'
+import book2 from '../images/book2.jpeg'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
@@ -23,6 +24,8 @@ const Homepage = () => {
                     <h1>Oluseun Onigbinde</h1>
                     <p>Co-founder, BudgIT & Chief Executive, Kwerty</p><br/>
                     <quote>"Olúwa ló pin, kí se agbára" <p>- Ayinla Omowura</p> </quote>
+                    <img src={book2} alt="book_order"/><br/>
+                    <a href="https://www.amazon.com/Existential-Questions-Uncomfortable-confronting-Nigeria/dp/9789848579/ref=sr_1_1?crid=1UVRKOW3IU12L&dchild=1&keywords=existential+questions&qid=1630672687&sprefix=the+existential+ques%2Caps%2C490&sr=8-1"><button>Order Now</button></a>
                 </div>
             </section>
             <section className="home_about">

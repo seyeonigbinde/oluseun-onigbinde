@@ -65,7 +65,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: 70%;
+  width: 60%;
   padding: 1%;
 }
 .desktop_nav a{
@@ -129,6 +129,7 @@ header{
 }
 .banner_text{
   width: 50%;
+  margin-top: 10%;
 }
 .banner_text h1{
   color: #2b7e20;
@@ -136,6 +137,18 @@ header{
 }
 .banner_image{
   width: 50%;
+}
+.banner_text button{
+  background-color: #2b7e20;
+  color: #fff;
+  padding: 1% 2%;
+  margin: 2% 0;
+  border-radius: 5px;
+}
+.banner_text button:hover{
+  background-color: #fff;
+  color: #2b7e20;
+  border: 2px solid #2b7e20;
 }
 .home_about{
   width: 80%;
@@ -234,6 +247,52 @@ header{
 .pub_container{
   margin-top: 10%;
 }
+.pub_container h2{
+  color: #2b7e20;
+  font-weight: bold;
+  padding:2% 0;
+}
+.pub_container button{
+  background-color: #2b7e20;
+  color: #fff;
+  padding: 1% 2%;
+  margin: 2% 0;
+  border-radius: 5px;
+}
+.pub_container button:hover{
+  background-color: #fff;
+  color: #2b7e20;
+  border: 2px solid #2b7e20;
+}
+.contact_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.contact_img{
+  width: 50%;
+}
+.contact_img img{
+  width: 100%;
+}
+.contact_text{
+  width: 45%;
+  color: #2b7e20;
+  margin: 8% 1%;
+}
+.contact_socials{
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 35%;
+  margin-top: 5%;
+}
+.contact_socials a{
+  color: #2b7e20;
+}
 footer{
   background-color: #2b7e20;
   color: #fff;
@@ -323,8 +382,16 @@ footer{
   .banner_image{
     width: 100%;
   }
+  .company a{
+    width: 50%;
+    padding: 2%;
+  }
+  .comments{
+    margin: 3% 0;
+  }
   .comments_card{
   width: 100%;
+  margin: 2% 0;
   }
   .about_container{
     margin-top: 3%;
@@ -333,7 +400,14 @@ footer{
     width: 100%;
   }
   .about_text{
+    width: 95%;
+  }
+  .contact_img{
     width: 100%;
+  }
+  .contact_socials{
+    width: 40%;
+    margin: auto;
   }
   .footer_items{
     width: 65%;
