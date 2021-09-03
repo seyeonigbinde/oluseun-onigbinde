@@ -21,9 +21,9 @@ const About = () => {
                 </div>
                 <div className="about_text">
                     <h2>Background</h2>
-                    <p>Oluseun Onigbinde is a native of Masifa, Ogbomoso, Oyo State.[6] He was born in Osogbo, presently Osun State, Nigeria. He had his primary and secondary school education in Ibadan. The prestigious Loyola College, Ibadan where he excelled in the sciences. He scored nine distinctions in his West African Examinations Council's exam, earning the best result of the school's 2001 set. Oluseun attended the University of Agriculture, Abeokuta where he obtained a bachelor of engineering (B.Eng.) in Electrical/Electronics Engineering During his NYSC, he was posted to Benin City where he got a job at Access Bank. He later joined First Bank for a period of three and half years.</p><br />
+                    <p>Oluseun Onigbinde is a native of Masifa, Ogbomoso, Oyo State. He was born in Osogbo, presently Osun State, Nigeria. He had his primary and secondary school education in Ibadan. The prestigious Loyola College, Ibadan where he excelled in the sciences. He scored nine distinctions in his West African Examinations Council's exam, earning the best result of the school's 2001 set. Oluseun attended the University of Agriculture, Abeokuta where he obtained a bachelor of engineering (B.Eng.) in Electrical/Electronics Engineering During his NYSC, he was posted to Benin City where he got a job at Access Bank. He later joined First Bank for a period of three and half years.</p><br />
                     <p>
-                        He also attended the Stanford University Graduate School of business where he completed the executive program in Social Entrepreneurship. He is a member of Covenant Nation and Christ Apostolic Church, Agbala Itura, Ibadan. He is a member of Ikeja Dynamic Lions Club. He recently published his first book titled <Link>"The Existential Questions"</Link> which was forwarded by Dr(Mrs) Obiageli Ezekwesili.
+                        He also attended the Stanford University Graduate School of business where he completed the executive program in Social Entrepreneurship. He is a member of Covenant Nation and Christ Apostolic Church, Agbala Itura, Ibadan. He is a member of Ikeja Dynamic Lions Club. He recently published his first book titled <Link to="/publication">"The Existential Questions"</Link> which was forwarded by Dr(Mrs) Obiageli Ezekwesili.
                     </p><br/>
                     <p>Oluseun resides in Lagos with his wife, Oluwaseun, and daughters - Wuraola, Ireoluwa and Elizabeth</p>
                 </div>
@@ -57,49 +57,51 @@ const About = () => {
                     <h2>Recognitions</h2>
                     <p>He is a board member of the ONE Africa Policy Advisory Board and also chairs Citizens' Gavel  Advisory Board.  He was appointed as Technical Adviser at the Ministry of Budget and National Planning in 2019 but resigned few days after this appointment.
                     Oluseun is a recipient of several awards and fellowships. In 2012, he was awarded the Future Awards Prize for Science and Tech Innovation. In 2018, Oluseun was selected by the Obama Foundation for its inaugural Obama Scholars Program at Columbia University. He has also been recognized as;</p> <br />
-                    <p>Africa's Top 50 Disruptor, The Africa Report</p>
+                    <div className="recognition_list">
+                    <p><i class="fas fa-hand-point-right"></i> Africa's Top 50 Disruptor, The Africa Report</p>
 
-                    <p>The UK International Leaders Programme Fellow</p>
+                    <p><i class="fas fa-hand-point-right"></i> The UK International Leaders Programme Fellow</p>
 
-                    <p>The French Government Prominent Persons Program Fellow </p>
+                    <p><i class="fas fa-hand-point-right"></i> The French Government Prominent Persons Program Fellow </p>
 
-                    <p>Obama Foundation Scholar, Columbia University </p>
+                    <p><i class="fas fa-hand-point-right"></i> Obama Foundation Scholar, Columbia University </p>
 
-                    <p>The New African Magazine Award for 100 Most Influential Africans </p>
+                    <p><i class="fas fa-hand-point-right"></i> The New African Magazine Award for 100 Most Influential Africans </p>
 
-                    <p>The Africa Report Award for 100 Most Influential Africans </p>
+                    <p><i class="fas fa-hand-point-right"></i> The Africa Report Award for 100 Most Influential Africans </p>
 
-                    <p>Fiscal Commissioner, The Nigerian Economic Summit Group</p>
+                    <p><i class="fas fa-hand-point-right"></i> Fiscal Commissioner, The Nigerian Economic Summit Group</p>
 
-                    <p>Goalkeeper, Gates Foundation </p>
+                    <p><i class="fas fa-hand-point-right"></i> Goalkeeper, Gates Foundation </p>
 
-                    <p>Seras Award for Outstanding Leader</p>
+                    <p><i class="fas fa-hand-point-right"></i> Seras Award for Outstanding Leader</p>
 
-                    <p>JCI TOYP Award</p>
+                    <p><i class="fas fa-hand-point-right"></i> JCI TOYP Award</p>
 
-                    <p>BMW Responsible Leaders Network Member </p>
+                    <p><i class="fas fa-hand-point-right"></i> BMW Responsible Leaders Network Member </p>
 
-                    <p>Archbishop Desmond Tutu Fellow</p>
+                    <p><i class="fas fa-hand-point-right"></i> Archbishop Desmond Tutu Fellow</p>
 
-                    <p>Melvin Jones Fellow of International Association of Lions Club </p>
+                    <p><i class="fas fa-hand-point-right"></i> Melvin Jones Fellow of International Association of Lions Club </p>
 
-                    <p>Bloomberg Media Initiative Africa Scholar </p>
+                    <p><i class="fas fa-hand-point-right"></i> Bloomberg Media Initiative Africa Scholar </p>
 
-                    <p>Quartz Africa 30 Innovators Award</p>
+                    <p><i class="fas fa-hand-point-right"></i> Quartz Africa 30 Innovators Award</p>
 
-                    <p>Stanford Draper Hills Summer Fellow</p>
+                    <p><i class="fas fa-hand-point-right"></i> Stanford Draper Hills Summer Fellow</p>
 
-                    <p>Aspen New Voices Fellow </p>
+                    <p><i class="fas fa-hand-point-right"></i> Aspen New Voices Fellow </p>
 
-                    <p>Harambean (Harambe Entrepreneur Alliance)</p>
+                    <p><i class="fas fa-hand-point-right"></i> Harambean (Harambe Entrepreneur Alliance)</p>
 
-                    <p>Knight Foundation Fellow at the International Center for Journalists </p>
+                    <p><i class="fas fa-hand-point-right"></i> Knight Foundation Fellow at the International Center for Journalists </p>
 
-                    <p>Ashoka Fellow</p>
+                    <p><i class="fas fa-hand-point-right"></i> Ashoka Fellow</p>
 
-                    <p>Past President, Ikeja Dynamic Lions Club</p>
+                    <p><i class="fas fa-hand-point-right"></i> Past President, Ikeja Dynamic Lions Club</p>
 
-                    <p>The Future Africa Prize Winner for Technology</p>
+                    <p><i class="fas fa-hand-point-right"></i> The Future Africa Prize Winner for Technology</p>
+                    </div>
                 </div>
                 <div className="about_img">
                     <img src={oluseun2} alt="image3" />

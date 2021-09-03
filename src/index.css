@@ -59,13 +59,13 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: 80%;
+  width: 70%;
   padding: 1%;
 }
 nav a{
   text-decoration: none;
   padding: 0 2%;
-  width: 40%;
+  width: 35%;
   color: #2b7e20;
 }
 nav a:hover{
@@ -75,14 +75,14 @@ nav a:hover{
   border-radius: 5px;
 }
 .logo{
-  width:20%;
+  width:30%;
   text-align: left;
   font-weight: bold;
   color: #fff;
   padding: 0.4% 1%;
 }
 .logo img{
-  width: 35%;
+  width: 25%;
   padding: 0% 2%;
 }
 .banner{
@@ -186,6 +186,15 @@ nav a:hover{
   color: #2b7e20;
   padding: 1% 0;
   font-weight: bold;
+}
+.about_text a{
+  color: #2b7e20;
+}
+.recognition_list{
+  text-align: left;
+}
+.pub_container{
+  margin-top: 10%;
 }
 footer{
   background-color: #2b7e20;
