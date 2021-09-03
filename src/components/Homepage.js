@@ -44,20 +44,24 @@ const Homepage = () => {
             {/* <h2>Recommendations </h2> */}
             <section className="comments">
                 <div className="comments_card">
-                <h4>"He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019."</h4><br/>
-                <p>- Oby Ezekwesili</p>
+                <h5>"Oluseun Onigbinde is so passionate and eloquent about what he does, coupled with diligence and well-thought-out plans to accomplished seemingly difficult task, in order to further stand the nation in good stead in its socioeconomic life!"</h5><br/>
+                <p>- David Okunlola</p>
+                <p>Program Officer (Population, Health and Nutrition) at Viable Knowledge Masters</p>
                 </div>
                 <div className="comments_card">
-                <h4>"He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019."</h4><br/>
-                <p>- Oby Ezekwesili</p>
+                <h5>"Calm, cool headed, highly self driven and intellectually sound. Looking for one person whose passion is seeing Citizens engage proactively with government on transparency and an open society, Oluseun is your man."</h5><br/>
+                <p>- Olusola Amusan</p>
+                <p>Co-Founder at Vesti</p>
                 </div>
                 <div className="comments_card">
-                <h4>"He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019."</h4><br/>
-                <p>- Oby Ezekwesili</p>
+                <h5>"Oluseun Onigbinde is a trail blazer in civic and social responsibilities. His work at BudgIT has open the eyes of millions of Nigerians on governance and public policy as it involves government spending. He has simplify the act of government budget that everyone both literate and illiterate can understand and have their inputs."</h5><br/>
+                <p>- Calvin A Lawan</p>
+                <p>COO at KF-Networks LTD</p>
                 </div>
                 <div className="comments_card">
-                <h4>He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019.</h4><br/>
-                <p>- Oby Ezekwesili</p>
+                <h5>"Oluseun has the three core C's requisite for effective leadership, Character, Capacity and Competence. Working with him and the team at BudgIT (www.yourbudgit.com) on ONE Campaign's #DoAgric awareness project was a great learning and shaping experience."</h5><br/>
+                <p>- Blossom Ozurumba</p>
+                <p>Innovation Advisor to the Chief Innovation Officer at Nigerian National Petroleum Corporation</p>
                 </div>  
             </section>
             </section>

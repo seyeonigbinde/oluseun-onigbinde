@@ -12,18 +12,18 @@ const Footer = () => {
                 <div className="footer_items" >
                 <img src={logo} alt="logo"/>
                     <div className="footer_socials">
-                        <Link><i class="fab fa-facebook-f"></i></Link>
-                        <Link><i class="fab fa-twitter"></i></Link>
-                        <Link><i class="fab fa-instagram"></i></Link>
-                        <Link><i class="fab fa-youtube"></i></Link>
+                        <a href ="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com/seunonigbinde/"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/oluseunonigbinde/"><i class="fab fa-linkedin"></i></a>
                     </div>
                 </div>
                 <div className="footer_items" >
                     <h4>Useful Links</h4>
-                    <Link to=''>BudgIT</Link>
-                    <Link>Tracka</Link>
-                    <Link>Kwerty</Link>
-                    <Link>Civic Hive</Link>
+                    <a href="https://yourbudgit.com/">BudgIT</a>
+                    <a href="https://tracka.ng/">Tracka</a>
+                    <a href="https://kwerty.io/">Kwerty</a>
+                    <a href="https://civichive.org/">Civic Hive</a>
                 </div>
                 <div className="footer_items" >
                     <h4>Useful Links</h4>
