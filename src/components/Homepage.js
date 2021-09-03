@@ -22,7 +22,7 @@ const Homepage = () => {
                 <div className="banner_text">
                     <h1>Oluseun Onigbinde</h1>
                     <p>Co-founder, BudgIT & Chief Executive, Kwerty</p><br/>
-                    <h4>"Olúwa ló pin, kí se agbára" Ayinla Omowura </h4>
+                    <quote>"Olúwa ló pin, kí se agbára" <p>- Ayinla Omowura</p> </quote>
                 </div>
             </section>
             <section className="home_about">

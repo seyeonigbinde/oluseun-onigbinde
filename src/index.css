@@ -55,30 +55,61 @@ header{
   top: 0;
   z-index: 1;
 }
-nav{
+.desktop_nav{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 70%;
   padding: 1%;
 }
-nav a{
+.desktop_nav a{
   text-decoration: none;
   padding: 0 2%;
   width: 35%;
   color: #2b7e20;
 }
-nav a:hover{
+.desktop_nav a:hover{
   border: 2px solid #2b7e20;
   color: #2b7e20;
   padding: 0.7% 0;
   border-radius: 5px;
 }
+.responsive_nav{
+  display: none;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 9rem;
+  box-shadow: 0px 8px 16px 
+    0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: 7%;
+}
+.dropdown-content a {
+  color: #2b7e20;
+  font-size: 0.8rem;
+  padding: 6px 6px;
+  text-decoration: none;
+  display: block;
+  border: 2px solid #c6e5c2;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+.dropdown:hover 
+.dropdown-content {
+  display: block;
+}
 .logo{
   width:30%;
   text-align: left;
   font-weight: bold;
-  color: #fff;
   padding: 0.4% 1%;
 }
 .logo img{
@@ -174,6 +205,7 @@ nav a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .about_img{
   width: 50%;
@@ -244,4 +276,64 @@ footer{
   width: 60%;
   padding: 1% 0;
   margin: 2% 16%;
+}
+
+@media screen and (max-width: 700px) {
+  h1{
+    font-size: 1.8rem;
+  }
+  h2{
+    font-size: 1.5rem;
+  }
+  h3{
+    font-size: 1.0rem;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+  header{
+    overflow: visible;
+  }
+  .logo{
+    width: 100%;
+  }
+  .logo img{
+    width: 18%;
+  }
+  .responsive_nav{
+    display: inline;
+    padding: 2% 3%;
+  }
+  .desktop_nav{
+    display: none;
+  }
+  .banner{
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+  .banner_text{
+    width: 100%;
+  }
+  .banner_image{
+    width: 100%;
+  }
+  .comments_card{
+  width: 100%;
+  }
+  .about_container{
+    margin-top: 3%;
+  }
+  .about_img{
+    width: 100%;
+  }
+  .about_text{
+    width: 100%;
+  }
+  .footer_items{
+    width: 65%;
+   margin-left: 20%;
+  }
+  .footer_items a{
+    font-size: 0.7rem;
+  }
 }
