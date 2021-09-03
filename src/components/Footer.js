@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom"
+import logo from '../images/logo.jpeg'
 
 
 const Footer = () => {
@@ -9,12 +10,12 @@ const Footer = () => {
         <footer>
             <section className="footer_container">
                 <div className="footer_items" >
-                    <h1><b> Oluseun </b></h1>
+                <img src={logo} alt="logo"/>
                     <div className="footer_socials">
-                        <i class="fab fa-facebook-f"></i>
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-instagram"></i>
-                        <i class="fab fa-youtube"></i>
+                        <Link><i class="fab fa-facebook-f"></i></Link>
+                        <Link><i class="fab fa-twitter"></i></Link>
+                        <Link><i class="fab fa-instagram"></i></Link>
+                        <Link><i class="fab fa-youtube"></i></Link>
                     </div>
                 </div>
                 <div className="footer_items" >
@@ -28,13 +29,13 @@ const Footer = () => {
                     <h4>Useful Links</h4>
 
                     <Link>Proximity Trust Foundation</Link>
-                    <Link>Other</Link>
-                    <Link>Other</Link>
-                    <Link>Others</Link>
+                    <Link>Proximity Trust Foundation</Link>
+                    <Link>Proximity Trust Foundation</Link>
+                    <Link>Proximity Trust Foundation</Link>
 
                 </div>
                 <div className="footer_items" >
-                    <h3>About </h3>
+                    <h3> </h3>
                     <p> </p>
                 </div>
             </section>

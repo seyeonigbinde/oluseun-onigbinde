@@ -48,8 +48,8 @@ header{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #2b7e20;
-  color: #fff;
+  background-color: #fff;
+  color: #2b7e20;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -59,31 +59,31 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  width: 70%;
+  width: 80%;
   padding: 1%;
 }
 nav a{
   text-decoration: none;
   padding: 0 2%;
   width: 40%;
-  color: #fff;
+  color: #2b7e20;
 }
 nav a:hover{
-  background-color: #fff;
+  border: 2px solid #2b7e20;
   color: #2b7e20;
   padding: 0.7% 0;
   border-radius: 5px;
 }
 .logo{
-  width:30%;
+  width:20%;
   text-align: left;
   font-weight: bold;
   color: #fff;
   padding: 0.4% 1%;
 }
-.logo h2{
-  width: 83%;
-  padding: 1% 2%;
+.logo img{
+  width: 35%;
+  padding: 0% 2%;
 }
 .banner{
   display: flex;
@@ -140,6 +140,9 @@ nav a:hover{
   width: 90%;
   filter: grayscale(100);
 }
+.company img:hover{
+  filter: grayscale(0)
+}
 .company a{
   width: 20%;
 }
@@ -165,8 +168,24 @@ nav a:hover{
   border-radius: 10px;
 }
 .comments div:hover{
-  background-color: #2b7e20;
-  color: #fff;
+  background-color: #c6e5c2;
+}
+.about_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_img{
+  width: 50%;
+}
+.about_text{
+  width: 50%;
+  padding: 3%;
+}
+.about_text h2{
+  color: #2b7e20;
+  padding: 1% 0;
+  font-weight: bold;
 }
 footer{
   background-color: #2b7e20;
@@ -187,11 +206,17 @@ footer{
 .footer_items a{
   display: flex;
   flex-direction: column;
-  color: #ccc;
+  color: #fff;
   text-decoration: none;
 }
+.footer_items img{
+  width: 30%;
+}
 .footer_items a:hover{
-  color: #fff;
+  color: #ccc;
+}
+.footer_items h4{
+  text-decoration: underline;
 }
 .footer_copyright{
   text-align: center;
@@ -208,6 +233,6 @@ footer{
   justify-content: space-between;
   flex-wrap: wrap;
   width: 60%;
-  padding: 2% 0;
-  margin: 14% 14%;
+  padding: 1% 0;
+  margin: 2% 16%;
 }
