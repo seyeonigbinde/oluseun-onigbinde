@@ -17,7 +17,7 @@ const Header = () => {
                         <div className="dropdown-content">
                             <Link to="/">Home</Link>
                             <Link to="/about">My Story</Link>
-                            <Link to="/about">Initiatives</Link>
+                            <Link to="/initiatives">Initiatives</Link>
                             <a href="#1">Blog</a>
                             <Link to="/publication">Publications</Link>
                             <Link to="/contact">Contact</Link>
@@ -27,7 +27,7 @@ const Header = () => {
             <nav className="desktop_nav">
                 <Link to="/">Home</Link>
                 <Link to="/about">My Story</Link>
-                <Link to="/about">Initiatives</Link>
+                <Link to="/initiatives">Initiatives</Link>
                 <a href="#1">Blog</a>
                 <Link to="/publication">Publications</Link>
                 <Link to="/contact">Contact</Link>

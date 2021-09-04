@@ -7,6 +7,7 @@ import civic_hive from '../images/civic_hive.png'
 import kwerty1 from '../images/kwerty1.jpeg'
 import book2 from '../images/book2.jpeg'
 import fitila1 from '../images/fitila1.png'
+import proximity from '../images/proximity.jpeg'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
@@ -39,11 +40,12 @@ const Homepage = () => {
                 <Link to="/about">Read More</Link>
             </section>
             <section className="company" data-aos="fade-up" data-aos-duration="3000">
-                <a href="https://yourbudgit.com/"><img src={budgit} alt="BudgIT"/></a>
-                <a  href="https://tracka.ng/"><img src={tracka} alt="Tracka"/></a>
-                <a href="https://civichive.org/"><img src={civic_hive} alt="CivicHive"/></a>
-                <a  href="http://studio.fitila.africa/"><img src={fitila1} alt="Fitila"/></a>
-                <a  href="https://kwerty.io/"><img src={kwerty1} alt="Kwerty"/></a>
+                <Link to="/initiatives"><img src={budgit} alt="BudgIT"/></Link>
+                <Link to="/initiatives"><img src={tracka} alt="Tracka"/></Link>
+                <Link to="/initiatives"><img src={civic_hive} alt="CivicHive"/></Link>
+                <Link to="/initiatives"><img src={fitila1} alt="Fitila"/></Link>
+                <Link to="/initiatives"><img src={kwerty1} alt="Kwerty"/></Link>
+                <Link to="/initiatives"><img src={proximity} alt="Proximity Trust"/></Link>
             </section>
             <section className="comments_container">
             {/* <h2>Recommendations </h2> */}

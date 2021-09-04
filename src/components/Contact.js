@@ -15,7 +15,7 @@ const Contact = () => {
                     <img src={contact} alt="contact_image" />
                 </div>
                 <div className="contact_text">
-                    <h2><b>Get in Touch</b></h2>
+                    <h1><b>Get in Touch</b></h1>
                     <div className="contact_socials">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
                         <a href="https://www.twitter.com/seunonigbinde/"><i class="fab fa-twitter fa-2x"></i></a>

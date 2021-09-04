@@ -23,16 +23,13 @@ const Footer = () => {
                     <a href="https://yourbudgit.com/">BudgIT</a>
                     <a href="https://tracka.ng/">Tracka</a>
                     <a href="https://kwerty.io/">Kwerty</a>
-                    <a href="http://studio.fitila.africa/">Fitila</a>
-                    <a href="https://civichive.org/">Civic Hive</a>
                 </div>
                 <div className="footer_items" >
-                    <h4>Resources</h4>
+                    <h4>Useful Links</h4>
 
-                    <a href="https://govspend.ng/">GovSpend.ng</a>
-                    <a href="http://fixouroil.com/">Extractives</a>
-                    <a href="http://openalliance.ng/">Institutional Support</a>
-                    <a href="#1">Proximity Trust Foundation</a>
+                    <a href="http://studio.fitila.africa/">Fitila</a>
+                    <a href="https://civichive.org/">Civic Hive</a>
+                    <a href="https://www.twitter.com/Proximity_OO/">Proximity Trust Foundation</a>
 
                 </div>
                 <div className="footer_items" >

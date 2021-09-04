@@ -111,7 +111,7 @@ const About = () => {
             <div className="about_img" data-aos="fade-down" data-aos-duration="3000">
                     <img src={oluseun5} alt="image2" />
                 </div>
-                <div className="about_text"data-aos="fade-down" data-aos-duration="3000">
+                <div className="about_text" data-aos="fade-down" data-aos-duration="3000">
                     <h2>Charity</h2>
                     <p>Oluseun runs <b>The Proximity Trust</b>, a revolving fund with a focus on being proximate to his roots and communities. He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019.</p><br />
                     <p>Oluseun also renovated the Technical Workshop building of Loyola College, Ibadan, his alma mater.  He also provided desktop computers and other technical tools to aiding the learning process of the students. </p>
