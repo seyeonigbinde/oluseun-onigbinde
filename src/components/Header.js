@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../images/logo.jpeg'
+import logo1 from '../images/logo1.jpeg'
 
 const Header = () => {
 
@@ -9,7 +9,7 @@ const Header = () => {
     return (
         <header>
             <div className="logo">
-                <Link to="/"><img src={logo} alt="logo" /></Link>
+                <Link to="/"><img src={logo1} alt="logo" /></Link>
             </div>
                 <nav className="responsive_nav">
                     <div className="dropdown">
@@ -17,6 +17,7 @@ const Header = () => {
                         <div className="dropdown-content">
                             <Link to="/">Home</Link>
                             <Link to="/about">My Story</Link>
+                            <Link to="/about">Initiatives</Link>
                             <a href="#1">Blog</a>
                             <Link to="/publication">Publications</Link>
                             <Link to="/contact">Contact</Link>
@@ -26,6 +27,7 @@ const Header = () => {
             <nav className="desktop_nav">
                 <Link to="/">Home</Link>
                 <Link to="/about">My Story</Link>
+                <Link to="/about">Initiatives</Link>
                 <a href="#1">Blog</a>
                 <Link to="/publication">Publications</Link>
                 <Link to="/contact">Contact</Link>

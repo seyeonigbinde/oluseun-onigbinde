@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/logo.jpeg'
+import logo1 from '../images/logo1.jpeg'
 
 
 const Footer = () => {
@@ -9,7 +9,7 @@ const Footer = () => {
         <footer>
             <section className="footer_container">
                 <div className="footer_items" >
-                <img src={logo} alt="logo"/>
+                <img src={logo1} alt="logo"/>
                     <div className="footer_socials">
                         <a href ="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/seunonigbinde/"><i class="fab fa-twitter"></i></a>
