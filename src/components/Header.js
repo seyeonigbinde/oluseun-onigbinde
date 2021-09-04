@@ -16,8 +16,8 @@ const Header = () => {
                         <i className="fas fa-bars fa-2x"></i>
                         <div className="dropdown-content">
                             <Link to="/">Home</Link>
-                            <Link to="/about">About Me</Link>
-                            {/* <a href="#1">Blog</a> */}
+                            <Link to="/about">My Story</Link>
+                            <a href="#1">Blog</a>
                             <Link to="/publication">Publications</Link>
                             <Link to="/contact">Contact</Link>
                         </div>
@@ -25,8 +25,8 @@ const Header = () => {
                 </nav>
             <nav className="desktop_nav">
                 <Link to="/">Home</Link>
-                <Link to="/about">About Me</Link>
-                {/* <a href="#1">Blog</a> */}
+                <Link to="/about">My Story</Link>
+                <a href="#1">Blog</a>
                 <Link to="/publication">Publications</Link>
                 <Link to="/contact">Contact</Link>
             </nav>

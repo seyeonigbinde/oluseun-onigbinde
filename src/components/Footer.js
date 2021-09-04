@@ -23,6 +23,7 @@ const Footer = () => {
                     <a href="https://yourbudgit.com/">BudgIT</a>
                     <a href="https://tracka.ng/">Tracka</a>
                     <a href="https://kwerty.io/">Kwerty</a>
+                    <a href="http://studio.fitila.africa/">Fitila</a>
                     <a href="https://civichive.org/">Civic Hive</a>
                 </div>
                 <div className="footer_items" >

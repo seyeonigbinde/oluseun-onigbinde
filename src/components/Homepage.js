@@ -6,6 +6,7 @@ import tracka from '../images/tracka.png'
 import civic_hive from '../images/civic_hive.png'
 import kwerty1 from '../images/kwerty1.jpeg'
 import book2 from '../images/book2.jpeg'
+import fitila1 from '../images/fitila1.png'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 
@@ -41,6 +42,7 @@ const Homepage = () => {
                 <a href="https://yourbudgit.com/"><img src={budgit} alt="BudgIT"/></a>
                 <a  href="https://tracka.ng/"><img src={tracka} alt="Tracka"/></a>
                 <a href="https://civichive.org/"><img src={civic_hive} alt="CivicHive"/></a>
+                <a  href="http://studio.fitila.africa/"><img src={fitila1} alt="Fitila"/></a>
                 <a  href="https://kwerty.io/"><img src={kwerty1} alt="Kwerty"/></a>
             </section>
             <section className="comments_container">
