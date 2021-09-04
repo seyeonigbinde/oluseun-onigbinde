@@ -227,8 +227,14 @@ header{
   align-items: center;
   flex-wrap: wrap;
 }
-.about_img{
+.about_img,
+ .about_img3,
+ .about_img4{
   width: 50%;
+}
+.about_img1,
+ .about_img2{
+  display: none;
 }
 .about_text{
   width: 50%;
@@ -262,7 +268,6 @@ header{
   border-radius: 10px;
   text-align: justify;
   /* margin-bottom: 2%; */
-  transition: width 2s, height 4s;
 }
 .init_items img{
   width: 50%;
@@ -272,9 +277,7 @@ header{
 filter: grayscale(100);
 }
 .init_items:hover{
-  background-color: #2b7e20 ;
-  color: #fff;
-  width: 32%;
+  background-color: #c6e5c2 ;
 }
 .blog_container{
   margin: 10% 2%;
@@ -388,8 +391,11 @@ footer{
   h3{
     font-size: 1.0rem;
   }
+  h5{
+    font-size: 0.9rem;
+  }
   p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   header{
     overflow: visible;
@@ -434,8 +440,18 @@ footer{
   .about_img{
     width: 100%;
   }
+  .about_img3, 
+  .about_img4{
+    display: none;
+  }
+  .about_img1,
+   .about_img2{
+    width: 100%;
+    display: inline;
+  }
   .about_text{
-    width: 95%;
+    width: 90%;
+    margin: auto;
   }
   .init_container{
     margin-top: 25%;
@@ -443,6 +459,9 @@ footer{
   .init_items{
     width: 95%;
     margin: 2% 0;
+  }
+  .blog_container{
+    margin-top: 20%;
   }
   .contact_img{
     width: 100%;
@@ -459,6 +478,9 @@ footer{
    margin-left: 20%;
   }
   .footer_items a{
+    font-size: 0.7rem;
+  }
+  .footer_copyright p{
     font-size: 0.7rem;
   }
 }
