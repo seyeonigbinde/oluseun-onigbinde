@@ -28,21 +28,21 @@ const About = () => {
                     <p>Oluseun resides in Lagos with his wife, Oluwaseun, and daughters - Wuraola, Ireoluwa and Elizabeth</p>
                 </div>
             </section>
-            <section className="about_container">
+            <section className="about_container"data-aos="fade-down" data-aos-duration="3000">
                 <div className="about_text">
                     <h2>The Civic Space</h2>
                     <p>In 2011, Oluseun Onigbinde and Joseph Agunbiade formed a team during a hackathon held at the Co-Creation Hub. It was here that he came up with the idea for a need to publicize government spending to the general public, leading to the startup BudgIT. Oluseun has always been a big believer in data-driven journalism and participated a health journalism project as part of the Knight Innovation Fellowship of the International Center for Journalists. In 2014, BudgIT launched Tracka, a project tracking tool. Tracka monitors public projects in over 600 communities in Nigeria. His organization also founded Civic Hive, Nigeria's civic innovation hub, that incubates solely civic tech start-ups.</p><br />
                     <p>His organization has reached over 12 million Nigerians and also support over 45 civil society organizations and public institutions such as NEITI, National Assembly, Nigerian Investment Promotion Commission and Kaduna State Government. Oluseun is a recipient of over 10 international awards. </p>
                 </div>
-                <div className="about_img">
+                <div className="about_img"data-aos="fade-down" data-aos-duration="3000">
                     <img src={oluseun3} alt="image2" />
                 </div>
             </section>
             <section className="about_container">
-                <div className="about_img">
+                <div className="about_img"data-aos="fade-down" data-aos-duration="3000">
                     <img src={oluseun4} alt="image1" />
                 </div>
-                <div className="about_text">
+                <div className="about_text" data-aos="fade-down" data-aos-duration="3000">
                     <h2>Global Leader</h2>
                     <p>Oluseun Onigbinde has visited at least 28 countries expanding conversations on the need for accountability & inclusive civic engagement. He has contributed to over 40 BudgIT publications on issues of fiscal transparency, accountability, civic engagement, extractives reform and public sector reform. He has worked with the National Assembly on Cost of Governance reform committee and also briefly served as Technical Adviser to the Minister of State for Budget and National Assembly. </p> <br />
 
@@ -53,7 +53,7 @@ const About = () => {
                 </div>
             </section>
             <section className="about_container">
-                <div className="about_text">
+                <div className="about_text" data-aos="fade-down" data-aos-duration="3000">
                     <h2>Recognitions</h2>
                     <p>He is a board member of the ONE Africa Policy Advisory Board and also chairs Citizens' Gavel  Advisory Board.  He was appointed as Technical Adviser at the Ministry of Budget and National Planning in 2019 but resigned few days after this appointment.
                     Oluseun is a recipient of several awards and fellowships. In 2012, he was awarded the Future Awards Prize for Science and Tech Innovation. In 2018, Oluseun was selected by the Obama Foundation for its inaugural Obama Scholars Program at Columbia University. He has also been recognized as;</p> <br />
@@ -103,15 +103,15 @@ const About = () => {
                     <p><i class="fas fa-hand-point-right"></i> The Future Africa Prize Winner for Technology</p>
                     </div>
                 </div>
-                <div className="about_img">
+                <div className="about_img" data-aos="fade-down" data-aos-duration="3000">
                     <img src={oluseun2} alt="image3" />
                 </div>
             </section>
             <section className="about_container">
-            <div className="about_img">
+            <div className="about_img" data-aos="fade-down" data-aos-duration="3000">
                     <img src={oluseun5} alt="image2" />
                 </div>
-                <div className="about_text">
+                <div className="about_text"data-aos="fade-down" data-aos-duration="3000">
                     <h2>Charity</h2>
                     <p>Oluseun runs <b>The Proximity Trust</b>, a revolving fund with a focus on being proximate to his roots and communities. He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019.</p><br />
                     <p>Oluseun also renovated the Technical Workshop building of Loyola College, Ibadan, his alma mater.  He also provided desktop computers and other technical tools to aiding the learning process of the students. </p>

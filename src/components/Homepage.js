@@ -38,7 +38,7 @@ const Homepage = () => {
                 Oluseun Onigbinde runs The Proximity Trust, a revolving fund with a focus on being proximate to his roots and communities. He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019. </h5>
                 <Link to="/about">Read More</Link>
             </section>
-            <section className="company">
+            <section className="company" data-aos="fade-up" data-aos-duration="3000">
                 <a href="https://yourbudgit.com/"><img src={budgit} alt="BudgIT"/></a>
                 <a  href="https://tracka.ng/"><img src={tracka} alt="Tracka"/></a>
                 <a href="https://civichive.org/"><img src={civic_hive} alt="CivicHive"/></a>

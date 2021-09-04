@@ -244,6 +244,15 @@ header{
 .recognition_list{
   text-align: left;
 }
+.init_container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.init_items{
+  width:30%;
+}
 .pub_container{
   margin-top: 10%;
 }
