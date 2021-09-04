@@ -19,7 +19,7 @@ const Contact = () => {
                     <div className="contact_socials">
                         <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
                         <a href="https://www.twitter.com/seunonigbinde/"><i class="fab fa-twitter fa-2x"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.instagram.com/gbainde"><i class="fab fa-instagram fa-2x"></i></a>
                         <a href="https://www.linkedin.com/in/oluseunonigbinde/"><i class="fab fa-linkedin fa-2x"></i></a>
                         <a href="mailto:oluseun@yourbudgit.com"><i class="fas fa-envelope-square fa-2x"></i></a>
                     </div>

@@ -32,11 +32,11 @@ const Homepage = () => {
             </section>
             <section className="home_about">
                 {/* <h2>My Profile</h2> */}
-                <h5>Oluseun Onigbinde was born on September 18, 1985, in Osogbo, Osun State. He is from Ile Asipa, Masifa, Ogbomoso. Oluseun Onigbinde previously worked as Strategy Officer at First Bank of Nigeria. Oluseun Onigbinde is a member of the ONE Africa Policy Advisory Board and also chairs Citizens' Gavel  Advisory Board. 
+                <h5>Oluseun Onigbinde was born on September 18, 1985, in Osogbo, Osun State. He is from Ile Asipa, Masifa, Ogbomoso. He previously worked as Strategy Officer at First Bank of Nigeria. He is a Director of BudgIT Foundation, a member of the ONE Africa Policy Advisory Board and also chairs Citizens' Gavel  Advisory Board. </h5>
 
-                He is a member of Covenant Nation and Christ Apostolic Church, Agbala Itura, Ibadan. He is a member of Ikeja Dynamic Lions Club.  
+                <h5>He is a member of Covenant Nation and Christ Apostolic Church, Agbala Itura, Ibadan. He is a member of Ikeja Dynamic Lions Club. </h5>
 
-                Oluseun Onigbinde runs The Proximity Trust, a revolving fund with a focus on being proximate to his roots and communities. He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019. </h5>
+                <h5>Oluseun runs The Proximity Trust, a revolving fund with a focus on being proximate to his roots and communities. He has worked to rebuild a computer lab for his alma mater, Loyola College & also provides scholarship awards for youths in Christ Apostolic Church, Agbala Itura, Ibadan, since 2019. </h5>
                 <Link to="/about">Read More</Link>
             </section>
             <section className="company" data-aos="fade-up" data-aos-duration="3000">

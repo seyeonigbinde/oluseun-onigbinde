@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className="footer_socials">
                         <a href ="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.twitter.com/seunonigbinde/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/gbainde"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/oluseunonigbinde/"><i class="fab fa-linkedin"></i></a>
                         <a href="mailto:oluseun@yourbudgit.com"><i class="fas fa-envelope-square"></i></a>
                     </div>

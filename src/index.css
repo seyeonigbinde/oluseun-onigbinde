@@ -184,7 +184,7 @@ header{
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  margin: 6% 1% 2% 1%;
+  margin: 8% 1% 6% 1%;
 }
 .company img{
   width: 80%;
@@ -198,6 +198,7 @@ header{
 }
 .comments_container{
   padding: 1%; 
+  margin-bottom: 6%;
 }
 .comments_container h2{
   color: #2b7e20;
@@ -255,10 +256,13 @@ header{
 }
 .init_items{
   width:30%;
+  /* height: 50vh; */
   padding: 2%;
   border: 2px solid #2b7e20;
   border-radius: 10px;
   text-align: justify;
+  /* margin-bottom: 2%; */
+  transition: width 2s, height 4s;
 }
 .init_items img{
   width: 50%;
@@ -266,6 +270,14 @@ header{
 }
 .init_items img:hover{
 filter: grayscale(100);
+}
+.init_items:hover{
+  background-color: #2b7e20 ;
+  color: #fff;
+  width: 32%;
+}
+.blog_container{
+  margin: 10% 2%;
 }
 .pub_container{
   margin-top: 10%;

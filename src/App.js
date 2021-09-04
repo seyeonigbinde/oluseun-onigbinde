@@ -1,6 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import './App.css';
 import About from './components/About';
+import Blog from './components/Blog';
 import Contact from './components/Contact';
 import Homepage from './components/Homepage';
 import Initiatives from './components/Initiatives';
@@ -16,6 +17,9 @@ function App() {
       <Route path="/publication">
           <Publication />
         </Route>  
+        <Route path="/blog">
+          <Blog />  
+        </Route> 
         <Route path="/initiatives">
           <Initiatives />  
         </Route>  
