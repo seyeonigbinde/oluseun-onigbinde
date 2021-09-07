@@ -10,31 +10,26 @@ const Footer = () => {
             <section className="footer_container">
                 <div className="footer_items" >
                 <img src={logo1} alt="logo"/>
-                    <div className="footer_socials">
-                        <a href ="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com/seunonigbinde/"><i class="fab fa-twitter"></i></a>
-                        <a href="https://www.instagram.com/gbainde"><i class="fab fa-instagram"></i></a>
-                        <a href="https://www.linkedin.com/in/oluseunonigbinde/"><i class="fab fa-linkedin"></i></a>
-                        <a href="mailto:oluseun@yourbudgit.com"><i class="fas fa-envelope-square"></i></a>
-                    </div>
                 </div>
                 <div className="footer_items" >
-                    <h4>Useful Links</h4>
+                    <h3>Links</h3>
                     <a href="https://yourbudgit.com/">BudgIT</a>
                     <a href="https://tracka.ng/">Tracka</a>
                     <a href="https://kwerty.io/">Kwerty</a>
-                </div>
-                <div className="footer_items" >
-                    <h4>Useful Links</h4>
-
                     <a href="http://studio.fitila.africa/">Fitila</a>
                     <a href="https://civichive.org/">Civic Hive</a>
                     <a href="https://www.twitter.com/Proximity_OO/">Proximity Trust Foundation</a>
 
                 </div>
                 <div className="footer_items" >
-                    <h3> </h3>
-                    <p> </p>
+                    <h3>Get In Touch</h3>
+                <div className="footer_socials">
+                        <a href ="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="https://www.twitter.com/seunonigbinde/"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="https://www.instagram.com/gbainde"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/oluseunonigbinde/"><i class="fab fa-linkedin fa-2x"></i></a>
+                        <a href="mailto:oluseun@yourbudgit.com"><i class="fas fa-envelope-square fa-2x"></i></a>
+                    </div>
                 </div>
             </section>
             <hr />

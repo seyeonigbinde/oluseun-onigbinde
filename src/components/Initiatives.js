@@ -16,7 +16,7 @@ const Initiatives = () => {
         <section>
             <Header />
             <section className="init_container">
-                <div className="init_items" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+                <div className="init_items" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
                     <img src={budgit} alt="BudgIT" />
                     <div>
                         <p>
@@ -24,7 +24,7 @@ const Initiatives = () => {
                     </p>
                     </div>
                 </div>
-                <div className="init_items" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+                <div className="init_items" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
                     <img src={tracka} alt="Tracka" />
                     <div>
                         <p>
@@ -32,7 +32,7 @@ const Initiatives = () => {
                     </p>
                     </div>
                 </div>
-                <div className="init_items" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="3000">
+                <div className="init_items" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
                     <img src={civic_hive} alt="Civic Hive" />
                     <div>
                         <p>
@@ -40,14 +40,14 @@ const Initiatives = () => {
                     </p>
                     </div>
                 </div>
-                <div className="init_items" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <div className="init_items" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
                     <img src={fitila1} alt="Fitila" />
                     <div>
                         <p>
                             What drives us and motivates us daily at Fitila, is our passion to help businesses communicate better with their target audience. Research has shown that no matter how great the goods or services a business offers, how they communicate with their target audience will to a very large extent, determine how successful they will be. It has also been said that success in this century will rely heavily on our ability to leverage the data at our disposal as well as communicate appropriately with our target audience.</p><br />
                     </div>
                 </div>
-                <div className="init_items" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <div className="init_items" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
                     <img src={kwerty1} alt="Kwerty" />
                     <div>
 
@@ -55,7 +55,7 @@ const Initiatives = () => {
                     </p>
                     </div>
                 </div>
-                <div className="init_items" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="3000">
+                <div className="init_items" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
                     <img src={proximity} alt="Proximity" />
                     <div>
                         <p>
