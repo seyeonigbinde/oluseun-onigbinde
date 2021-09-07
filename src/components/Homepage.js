@@ -31,7 +31,7 @@ const Homepage = () => {
                 </div>
             </section>
             <section className="home_about">
-                {/* <h2>My Profile</h2> */}
+                <h2>My Profile</h2>
                 <p>Oluseun Onigbinde was born on September 18, 1985, in Osogbo, Osun State. He is from Ile Asipa, Masifa, Ogbomoso. He previously worked as Strategy Officer at First Bank of Nigeria. He is a Director of BudgIT Foundation, a member of the ONE Africa Policy Advisory Board and also chairs Citizens' Gavel  Advisory Board. </p>
 
                 <p>He is a member of Covenant Nation and Christ Apostolic Church, Agbala Itura, Ibadan. He is a member of Ikeja Dynamic Lions Club. </p>
